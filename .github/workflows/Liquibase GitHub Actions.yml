@@ -1,0 +1,38 @@
+            - name: Liquibase Github Action
+  # You may pin to the exact commit or the version.
+  # uses: liquibase/liquibase-github-action@384eaf0e3236058a40fa7c1e2064c6482fbbbf8e
+  uses: liquibase/liquibase-github-action@v7
+  with:
+    # Operation to run
+    operation: 
+    # Path to Change Log directory
+    classpath: # optional
+    # Name of Change Log File
+    changeLogFile: # optional
+    # Database Username
+    username: # optional
+    # Database Password
+    password: # optional
+    # Database URL
+    url: # optional
+    # Count for updateCount and rollbackCount
+    count: # optional
+    # Tag for tag, updateToTag, and rollback
+    tag: # optional
+    # Date for rollbackToDate
+    date: # optional
+    # Reference URL for diff
+    referenceUrl: # optional
+    # Configuration file for checks execution
+    checksSettingsFile: # optional
+    # DEPRECATED: Liquibase Pro license key used to unlock paid capabilities
+    proLicenseKey: # optional
+    # Liquibase Hub API key for operations
+    hubApiKey: # optional
+    # Liquibase license key used to unlock paid capabilities
+    licenseKey: # optional
+    # Specifies the Liquibase changelog table
+    databaseChangeLogTableName: # optional
+    # Specifies the Liquibase changelog lock table
+    databaseChangeLogLockTableName: # optional
+          
